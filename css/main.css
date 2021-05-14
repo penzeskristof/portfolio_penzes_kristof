@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    box-shadow:20px 20px 50px black;  
+  }
+body {
+   width: 70%;
+   font-family:  "Courier New", "Lucida Console", monospace;
+   background-image: url('kepek/hatter.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   box-shadow:none; 
+   margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+h1{
+    box-shadow:none;  
+    padding: 0;
+}
+p{
+    font-size: 24px;
+    box-shadow:none; 
+}
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border: 8px solid rgb(102, 102, 102);
+    border-radius: 70px;
+}
+.menu {
+    width: 100%;
+    background-color: rgb(204, 204, 204);
+    overflow: auto;
+  }
+  .menu a {
+    float: left;
+    padding: 15px;
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-size: 25px;
+    width: 25%; /* negyedelés */
+    text-align: center;
+  }
+  
+  .menu a:hover:not(.active) {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .menu a.active {
+    color: black;
+    font-weight: bold;
+  }
+ 
+.fejkep img{
+    width: 100%;
+    margin-top: 100px;
+ }
+ .szovegdoboz{
+    background-color: cornsilk;
+    text-align: left;
+    padding: 10px 3%;
+    border: 8px solid rgb(102, 102, 102);
+    border-radius: 70px;
+    margin-top: 30px;
+}
+.sav3oszt{
+    margin-top: 30px;
+    box-shadow: none;
+}
+.sav3oszt img{
+    width:  32.5%;
+}
+footer{
+    margin-top: 30px;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 15px 0px;
+    
+}
+.galeria{
+    box-shadow: none;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.galeria img{
+    width: 49.5%;
+}
+.kapcs{
+    margin-top: 50px;
+    box-shadow: none;
+    text-align: center;
+}
+.kapcs .szovegdoboz{
+    margin-top: -100px;
+
+}
+.kapcs .szovegdoboz a{
+    box-shadow:none;  
+}
+.kapcs img{
+    border-radius: 50%; 
+    width: 40%;
+}
+  @media screen and (max-width: 720px) {
+      body{
+        width: 95%;
+      }
+    .menu a {
+      float: none;
+      display: block;
+      width: 100%;
+    }
+    p{
+        font-size: 17px;
+    }
+    .szovegdoboz{
+        padding-left: 8%;
+
+    }
+    .fejkep img{
+        margin-top: 30px;
+    }
+    .sav3oszt img{
+        width:  100%;
+    
+    }
+    .galeria{
+        margin-top: -40px;
+    }
+    .galeria img{
+        width: 100%;
+    }
+    .kapcs .kerkep{
+        width: 60%;
+    }
+    
+}
